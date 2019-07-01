@@ -12,7 +12,7 @@ headers = {
 base_url = "https://www.olx.ua/nedvizhimost/kvartiry-komnaty/arenda-kvartir-komnat/kharkov/?search%5Bdistrict_id%5D=69"
 
 
-def hh_parse(base_url, headers):
+def olx_parse(base_url, headers):
     global start
     start = datetime.datetime.now()
     urls = []
