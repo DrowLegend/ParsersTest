@@ -77,5 +77,5 @@ def files_writer(ads):
     print(f"Время выполнения всей программы: {endwrite - start}")
 
 
-ads = hh_parse(base_url, headers)
+ads = olx_parse(base_url, headers)
 files_writer(ads)
